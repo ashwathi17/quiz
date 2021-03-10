@@ -1,0 +1,75 @@
+body {
+    background-color: #3ca8cf;
+    background-size: cover;
+    padding:0; 
+    margin:0;
+}
+
+.grid {
+    width: 80%;
+    height: 100%;
+    margin: 80px auto;
+    background-color: #fff;
+    padding: 20px 50px 50px 50px;
+    border: 2px solid #cbcbcb;
+}
+
+.grid h1 {
+    font-family: "sans-serif";
+    background-color: #01BBFF;
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+}
+
+#score {
+    color: #01BBFF;
+    text-align: center;
+    font-size: 30px;
+}
+
+#ans {
+    color: #19ce65;
+    text-align: left;
+    font-size: 20px;
+    font-family: "Papyrus";
+    font-style:inherit;
+}
+
+.grid #question {
+    font-family: "Papyrus";
+    font-size: 30px;
+    color: #01BBFF;
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #01BBFF;
+    width: 250px;
+    font-size: 20px;
+    font-family: "Papyrus";
+    color: #fff;
+    border: 2px solid #40c4e6;
+    border-radius: 12px;
+    margin: 20px 40px 10px 17%;
+    padding: 10px 10px;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+#progress {
+    color: #2b2b2b;
+    font-size: 18px;
+    font-family: "Lucida Console";
+}
